@@ -1,0 +1,23 @@
+@use '_variables' as var
+
+footer
+    margin-top: 3rem
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    .redes
+        a
+            img
+                padding: 10px
+                border: 1px solid #000
+                background-color: #fff
+                display: inline-block
+                width: 50px
+                height: 50px
+                border-radius: 25rem
+                text-align: center
+                box-shadow: -4px 0px 1px 2.5px var.$color-fondito
+                vertical-align: middle
+        a + a
+            margin-left: 1.5rem
